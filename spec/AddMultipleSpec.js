@@ -6,12 +6,12 @@ describe("Simple calculator that add multiple numbers in the array", ()=>{
 
         expect(answer).toBe(0);
     })
-    it ("The answer is -2", ()=> {
-        var a=[-1,-1];
+    it ("The answer is 2", ()=> {
+        var a=[-1,-1,0,4];
         
         var answer=AddMultiple(a);
 
-        expect(answer).toBe(-2);
+        expect(answer).toBe(2);
     })
     
     it ("The answer is 10", ()=> {
@@ -22,12 +22,4 @@ describe("Simple calculator that add multiple numbers in the array", ()=>{
 
         expect(answer).toBe(10);
     })
-
-    it ("It should result with 1"), ()=> {
-        var a = [-10,9,2,-1,1];
-
-        var answer = AddMultiple(a);
-        
-        expect(answer).toEqual(1);
-    }
 })
