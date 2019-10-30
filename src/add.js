@@ -8,5 +8,3 @@ function add(){
     }
     return sum;
 }
-
-// console.warn(add(1,3));
