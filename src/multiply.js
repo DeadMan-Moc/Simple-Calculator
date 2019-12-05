@@ -6,3 +6,5 @@ function multiply() {
     }
     return product;
 }
+
+module.exports = multiply
